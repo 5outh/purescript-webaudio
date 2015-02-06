@@ -1,5 +1,6 @@
 *~
 .psci
+.cabal-sandbox
 bower_components
 node_modules
 output
