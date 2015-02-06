@@ -36,11 +36,21 @@ getSmoothingTimeConstant = getter "smoothingTimeConstant"
 getByteFrequencyData :: forall eff. AnalyserNode -> Eff (wau :: WebAudio | eff) [Number]
 getByteFrequencyData = method0Eff "getByteFrequencyData"
 
-getByteTimeDomainData :: forall eff. AnalyserNode -> Eff (wau :: WebAudio | eff) [Number]
-getByteTimeDomainData = method0Eff "getByteTimeDomainData"
-
 getFloatFrequencyData :: forall eff. AnalyserNode -> Eff (wau :: WebAudio | eff) [Number]
 getFloatFrequencyData = method0Eff "getFloatFrequencyData"
 
 getFloatTimeDomainData :: forall eff. AnalyserNode -> Eff (wau :: WebAudio | eff) [Number]
 getFloatTimeDomainData = method0Eff "getFloatTimeDomainData"
+
+foreign import getByteTimeDomainData
+"""
+function getByteTimeDomainData (analyser) {
+    return function () {
+        var bufferLength = analyser.frequencyBinCount,
+            dataArray = new Uint8Array(bufferLength);
+
+        analyser.getByteTimeDomainData(dataArray);
+        return dataArray;
+    };
+};
+""" :: forall eff. AnalyserNode -> Eff (wau :: WebAudio | eff) [Number]
