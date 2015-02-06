@@ -83,7 +83,7 @@ function createAnalyser (ctx) {
         return ctx.createAnalyser();
     }
 }
-""" :: forall wau eff. AudioContext -> Eff (wau :: WebAudio | eff) OscillatorNode
+""" :: forall wau eff. AudioContext -> Eff (wau :: WebAudio | eff) AnalyserNode
 
 -- XXX this is really a method on an AudioNode.
 

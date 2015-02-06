@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8338ffe-2d1e-46cc-87f4-82a0a1a41a73" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Audio/WebAudio/AnalyserNode.purs" afterPath="$PROJECT_DIR$/src/Audio/WebAudio/AnalyserNode.purs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Audio/WebAudio/AudioContext.purs" afterPath="$PROJECT_DIR$/src/Audio/WebAudio/AudioContext.purs" />
     </list>
     <ignored path="purescript-webaudio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AudioContext.purs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AudioContext.purs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Audio/WebAudio/AudioContext.purs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1760">
-              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+            <state vertical-scroll-proportion="2.116129" vertical-offset="0" max-vertical-offset="1760">
+              <caret line="82" column="36" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -89,11 +89,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnalyserNode.purs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AnalyserNode.purs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Audio/WebAudio/AnalyserNode.purs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8451613" vertical-offset="356" max-vertical-offset="976">
-              <caret line="55" column="71" selection-start-line="55" selection-start-column="71" selection-end-line="55" selection-end-column="71" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="37" max-vertical-offset="976">
+              <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output/Main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="177666" max-vertical-offset="180960">
+              <caret line="11119" column="36" selection-start-line="11119" selection-start-column="36" selection-end-line="11119" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -132,9 +142,9 @@
         <option value="$PROJECT_DIR$/src/Audio/WebAudio/Types.purs" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/Audio/WebAudio/DestinationNode.purs" />
-        <option value="$PROJECT_DIR$/src/Audio/WebAudio/AudioContext.purs" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/Audio/WebAudio/AnalyserNode.purs" />
+        <option value="$PROJECT_DIR$/src/Audio/WebAudio/AudioContext.purs" />
       </list>
     </option>
   </component>
@@ -317,9 +327,9 @@
     <layout>
       <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32988626" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988626" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988626" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32988626" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24960506" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -460,14 +470,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Audio/WebAudio/AudioContext.purs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1760">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Audio/WebAudio/GainNode.purs">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="320">
@@ -486,8 +488,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Audio/WebAudio/AnalyserNode.purs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8451613" vertical-offset="356" max-vertical-offset="976">
-          <caret line="55" column="71" selection-start-line="55" selection-start-column="71" selection-end-line="55" selection-end-column="71" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="37" max-vertical-offset="976">
+          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="177666" max-vertical-offset="180960">
+          <caret line="11119" column="36" selection-start-line="11119" selection-start-column="36" selection-end-line="11119" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Audio/WebAudio/AudioContext.purs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.116129" vertical-offset="0" max-vertical-offset="1760">
+          <caret line="82" column="36" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
           <folding />
         </state>
       </provider>
