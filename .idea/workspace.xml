@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c8338ffe-2d1e-46cc-87f4-82a0a1a41a73" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Audio/WebAudio/AnalyserNode.purs" afterPath="$PROJECT_DIR$/src/Audio/WebAudio/AnalyserNode.purs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="purescript-webaudio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,16 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="688">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GainNode.purs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Audio/WebAudio/GainNode.purs">
           <provider selected="true" editor-type-id="text-editor">
@@ -103,8 +93,8 @@
       <file leaf-file-name="AnalyserNode.purs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Audio/WebAudio/AnalyserNode.purs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23225807" vertical-offset="0" max-vertical-offset="620">
-              <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.9483871" vertical-offset="148" max-vertical-offset="832">
+              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -396,14 +386,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Test01.purs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="880">
-          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/purescript-webaudio.cabal">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="464">
@@ -505,8 +487,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Audio/WebAudio/AnalyserNode.purs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23225807" vertical-offset="0" max-vertical-offset="620">
-          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.9483871" vertical-offset="148" max-vertical-offset="832">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding />
         </state>
       </provider>
