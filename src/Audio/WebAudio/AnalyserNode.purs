@@ -4,6 +4,8 @@ import Control.Monad.Eff
 import Audio.WebAudio.Types
 import Data.Foreign.OOFFI
 
+instance audioNodeAnalyserNode :: AudioNode AnalyserNode
+
 {- Getters/Setters for all AnalyserNode properties -}
 
 setFftSize :: forall wau eff. AnalyserNode -> Number -> Eff (wau :: WebAudio | eff) Number
