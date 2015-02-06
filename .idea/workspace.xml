@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c8338ffe-2d1e-46cc-87f4-82a0a1a41a73" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Audio/WebAudio/AnalyserNode.purs" afterPath="$PROJECT_DIR$/src/Audio/WebAudio/AnalyserNode.purs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="purescript-webaudio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -93,8 +92,8 @@
       <file leaf-file-name="AnalyserNode.purs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Audio/WebAudio/AnalyserNode.purs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9483871" vertical-offset="148" max-vertical-offset="832">
-              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5419355" vertical-offset="0" max-vertical-offset="832">
+              <caret line="21" column="37" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -487,8 +486,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Audio/WebAudio/AnalyserNode.purs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9483871" vertical-offset="148" max-vertical-offset="832">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5419355" vertical-offset="0" max-vertical-offset="832">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="37" />
           <folding />
         </state>
       </provider>
