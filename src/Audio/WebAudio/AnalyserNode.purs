@@ -7,5 +7,5 @@ import Data.Foreign.OOFFI
 setFftSize :: forall wau eff. OscillatorNode -> Number -> Eff (wau :: WebAudio | eff) Number
 setFftSize = setter "fftSize"
 
-getFftSize :: forall wau eff. OscillatorNode -> Number -> Eff (wau :: WebAudio | eff) Number
+getFftSize :: forall wau eff. OscillatorNode -> Eff (wau :: WebAudio | eff) Number
 getFftSize = getter "fftSize"
